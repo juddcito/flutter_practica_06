@@ -34,10 +34,10 @@ class TabsPage extends StatelessWidget {
         ),
         body: const TabBarView(
           children: [
-            Icon(Icons.accessibility_new),
-            Icon(Icons.mail),
-            Icon(Icons.map),
-            Icon(Icons.access_alarm),
+            Icon(Icons.accessibility_new, size: 72),
+            Icon(Icons.mail, size: 72),
+            Icon(Icons.map, size: 72),
+            Icon(Icons.access_alarm, size: 72),
           ],
         ),
       )
