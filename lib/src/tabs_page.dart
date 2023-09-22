@@ -12,7 +12,7 @@ class TabsPage extends StatelessWidget {
       length: 4,
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blueGrey,
+          backgroundColor: Colors.lightGreen,
           title: const Text('Tabs Page'),
           centerTitle: true,
           bottom: const TabBar(
@@ -37,7 +37,7 @@ class TabsPage extends StatelessWidget {
             Icon(Icons.accessibility_new),
             Icon(Icons.mail),
             Icon(Icons.map),
-            Icon(Icons.access_alarm)
+            Icon(Icons.access_alarm),
           ],
         ),
       )
